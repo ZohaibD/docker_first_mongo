@@ -6,7 +6,7 @@ const fs = require('fs')
 const bodyparser = require('body-parser')
 const userSchema = require('./model/Student')
 
-const port = 5000
+const port = 4000
 mongoose.connect(config.DB,{useNewUrlParser:true,useUnifiedTopology:true},
     (err)=>{
         if(err) throw err
