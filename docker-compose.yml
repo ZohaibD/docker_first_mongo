@@ -2,7 +2,7 @@ version: "3"
 services: 
     web:
         image: docker_first_mongo
-        build: .
+        build: ./
         command: "node server.js"
         ports: 
             - "4000:4000"
